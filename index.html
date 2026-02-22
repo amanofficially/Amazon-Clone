@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d5b400fa39.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Amazon Clone</title>
+  </head>
+  <body>
+
+    <!-- ===== HEADER: Navbar + Panel ===== -->
+    <header>
+
+      <!-- Top Navigation Bar -->
+      <nav class="navbar">
+
+        <!-- Logo -->
+        <div class="nav-logo hover-border">
+          <div class="logo"></div>
+        </div>
+
+        <!-- Delivery Address -->
+        <div class="nav-address hover-border">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <p class="small-text">Delivering to Indore 452015</p>
+            <p class="bold-text">Madhya Pradesh, India</p>
+          </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="nav-search">
+          <select class="search-select">
+            <option>All</option>
+          </select>
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search Amazon.in"
+          />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <!-- Language Selector -->
+        <div class="nav-language hover-border">
+          <img src="images/flag-removebg-preview.png" alt="India flag" />
+          <span>EN</span>
+        </div>
+
+        <!-- Sign In -->
+        <div class="nav-signin hover-border">
+          <p class="small-text">Hello, sign in</p>
+          <p class="bold-text">Account & Lists</p>
+        </div>
+
+        <!-- Returns & Orders -->
+        <div class="nav-returns hover-border">
+          <p class="small-text">Returns</p>
+          <p class="bold-text">& Orders</p>
+        </div>
+
+        <!-- Cart -->
+        <div class="nav-cart hover-border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>Cart</span>
+        </div>
+
+      </nav>
+
+      <!-- Bottom Panel / Category Links -->
+      <div class="panel">
+        <div class="panel-menu hover-border">
+          <i class="fa-solid fa-bars"></i>
+          <span>All</span>
+        </div>
+        <ul class="panel-links">
+          <li><a href="#"><i class="fa-solid fa-play"></i> MX Player</a></li>
+          <li><a href="#"><i class="fa-solid fa-store"></i> Sell</a></li>
+          <li><a href="#"><i class="fa-solid fa-tag"></i> Today's Deals</a></li>
+          <li><a href="#"><i class="fa-solid fa-headset"></i> Customer Service</a></li>
+          <li><a href="#"><i class="fa-solid fa-mobile-screen"></i> Mobiles</a></li>
+          <li><a href="#"><i class="fa-solid fa-crown"></i> Prime</a></li>
+          <li><a href="#"><i class="fa-solid fa-fire"></i> New Releases</a></li>
+          <li><a href="#"><i class="fa-solid fa-wallet"></i> Amazon Pay</a></li>
+          <li><a href="#"><i class="fa-solid fa-shirt"></i> Fashion</a></li>
+          <li><a href="#"><i class="fa-solid fa-laptop"></i> Electronics</a></li>
+          <li><a href="#"><i class="fa-solid fa-house"></i> Home & Kitchen</a></li>
+        </ul>
+      </div>
+
+    </header>
+    <!-- ===== END HEADER ===== -->
+
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main class="hero">
+
+      <!-- Hero Banner Image -->
+      <div class="hero-image"></div>
+
+      <!-- First Row of Product Cards (overlapping hero) -->
+      <div class="card-container">
+
+        <div class="product-card">
+          <h2>Bulk order discounts + Up to 18% GST savings</h2>
+          <div class="image-grid">
+            <img src="images/186x116_Home_furnishings_2._SY116_CB555624324_.jpg" alt="Home Furnishings" />
+            <img src="images/ABdelivery_186_116._SY116_CB776314701_.jpg" alt="Fast Delivery" />
+            <img src="images/KitchenAppliances_186_116_10._SY116_CB777673831_.jpg" alt="Kitchen Appliances" />
+            <img src="images/Laptops_186_116_10._SY116_CB777673831_.jpg" alt="Laptops" />
+          </div>
+          <p class="card-link">Create a free account</p>
+        </div>
+
+        <div class="product-card">
+          <h2>Revamp your home in style</h2>
+          <div class="image-grid">
+            <img src="images/1.jpg" alt="Home decor item 1" />
+            <img src="images/2.jpg" alt="Home decor item 2" />
+            <img src="images/3.jpg" alt="Home decor item 3" />
+            <img src="images/4.jpg" alt="Home decor item 4" />
+          </div>
+          <p class="card-link">See more</p>
+        </div>
+
+        <div class="product-card">
+          <h2>Appliances for your home | Up to 55% off</h2>
+          <div class="image-grid">
+            <img src="images/5.jpg" alt="Appliance 1" />
+            <img src="images/6.jpg" alt="Appliance 2" />
+            <img src="images/7.jpg" alt="Appliance 3" />
+            <img src="images/8.jpg" alt="Appliance 4" />
+          </div>
+          <p class="card-link">Explore all</p>
+        </div>
+
+        <div class="product-card">
+          <h2>Starting ₹149 | Headphones</h2>
+          <div class="image-grid">
+            <img src="images/9.jpg" alt="Headphone 1" />
+            <img src="images/10.jpg" alt="Headphone 2" />
+            <img src="images/11.jpg" alt="Headphone 3" />
+            <img src="images/12.jpg" alt="Headphone 4" />
+          </div>
+          <p class="card-link">See more offers</p>
+        </div>
+
+      </div>
+      <!-- End First Card Row -->
+
+
+      <!-- Recently Viewed Products Section -->
+      <div class="product-row-box">
+        <h3 class="product-row-heading">Related to items you've viewed</h3>
+        <div class="product-row-images">
+          <img src="images/m1.jpg" alt="Product 1" />
+          <img src="images/m2.jpg" alt="Product 2" />
+          <img src="images/m3.jpg" alt="Product 3" />
+          <img src="images/m4.jpg" alt="Product 4" />
+          <img src="images/m5.jpg" alt="Product 5" />
+          <img src="images/m6.jpg" alt="Product 6" />
+          <img src="images/m7.jpg" alt="Product 7" />
+          <img src="images/m1.jpg" alt="Product 8" />
+          <img src="images/m2.jpg" alt="Product 9" />
+          <img src="images/m3.jpg" alt="Product 10" />
+          <img src="images/m4.jpg" alt="Product 11" />
+          <img src="images/m5.jpg" alt="Product 12" />
+        </div>
+      </div>
+
+      <!-- Best Sellers - Clothing Section -->
+      <div class="product-row-box">
+        <h3 class="product-row-heading">Best Sellers in Clothing & Accessories</h3>
+        <div class="product-row-images">
+          <img src="images/c1.jpg" alt="Clothing 1" />
+          <img src="images/c2.jpg" alt="Clothing 2" />
+          <img src="images/c3.jpg" alt="Clothing 3" />
+          <img src="images/c4.jpg" alt="Clothing 4" />
+          <img src="images/c5.jpg" alt="Clothing 5" />
+          <img src="images/c6.jpg" alt="Clothing 6" />
+          <img src="images/c8.jpg" alt="Clothing 7" />
+          <img src="images/c9.jpg" alt="Clothing 8" />
+          <img src="images/c1.jpg" alt="Clothing 9" />
+          <img src="images/c2.jpg" alt="Clothing 10" />
+          <img src="images/c3.jpg" alt="Clothing 11" />
+          <img src="images/c4.jpg" alt="Clothing 12" />
+          <img src="images/c5.jpg" alt="Clothing 13" />
+        </div>
+      </div>
+
+
+      <!-- Second Row of Product Cards (after clothing section) -->
+      <div class="card-container card-container--bottom">
+
+        <!-- Card 1: item1 to item4 -->
+        <div class="product-card">
+          <h2>Bulk order discounts + Up to 18% GST savings</h2>
+          <div class="image-grid">
+            <img src="images/item1.jpg" alt="Item 1" />
+            <img src="images/item2.jpg" alt="Item 2" />
+            <img src="images/item3.jpg" alt="Item 3" />
+            <img src="images/item4.jpg" alt="Item 4" />
+          </div>
+          <p class="card-link">Create a free account</p>
+        </div>
+
+        <!-- Card 2: item5 to item8 -->
+        <div class="product-card">
+          <h2>Revamp your home in style</h2>
+          <div class="image-grid">
+            <img src="images/item5.jpg" alt="Item 5" />
+            <img src="images/item6.jpg" alt="Item 6" />
+            <img src="images/item7.jpg" alt="Item 7" />
+            <img src="images/item8.jpg" alt="Item 8" />
+          </div>
+          <p class="card-link">See more</p>
+        </div>
+
+        <!-- Card 3: single image item13, shown full width -->
+        <div class="product-card">
+          <h2>Appliances for your home | Up to 55% off</h2>
+          <div class="image-grid image-grid--single">
+            <img src="images/item13.jpg" alt="Item 13" />
+          </div>
+          <p class="card-link">Explore all</p>
+        </div>
+
+        <!-- Card 4: item9 to item12 -->
+        <div class="product-card">
+          <h2>Starting ₹149 | Headphones</h2>
+          <div class="image-grid">
+            <img src="images/item9.jpg" alt="Item 9" />
+            <img src="images/item10.jpg" alt="Item 10" />
+            <img src="images/item11.jpg" alt="Item 11" />
+            <img src="images/item12.jpg" alt="Item 12" />
+          </div>
+          <p class="card-link">See more offers</p>
+        </div>
+
+      </div>
+      <!-- End Second Card Row -->
+
+    </main>
+    <!-- ===== END MAIN CONTENT ===== -->
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+
+      <!-- Back to Top Button -->
+      <div class="footer-top">
+        <a href="#" class="footer-top-link">Back to top</a>
+      </div>
+
+      <!-- Footer Links Section -->
+      <div class="footer-links">
+
+        <div class="footer-col">
+          <h3>Get to Know Us</h3>
+          <ul>
+            <li><a href="#">About Amazon</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Amazon Science</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Connect with Us</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Make Money with Us</h3>
+          <ul>
+            <li><a href="#">Sell on Amazon</a></li>
+            <li><a href="#">Sell under Amazon Accelerator</a></li>
+            <li><a href="#">Amazon Associates</a></li>
+            <li><a href="#">Fulfilment by Amazon</a></li>
+            <li><a href="#">Advertise Your Products</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Let Us Help You</h3>
+          <ul>
+            <li><a href="#">COVID-19 and Amazon</a></li>
+            <li><a href="#">Your Account</a></li>
+            <li><a href="#">Returns Centre</a></li>
+            <li><a href="#">100% Purchase Protection</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Divider -->
+      <div class="footer-divider"></div>
+
+      <!-- Footer Bottom: Logo + Country + Copyright -->
+      <div class="footer-bottom">
+        <div class="footer-logo"></div>
+        <div class="footer-country">
+          <i class="fa-solid fa-globe"></i>
+          <span>English</span>
+          <i class="fa-solid fa-angle-down"></i>
+          &nbsp;&nbsp;
+          <i class="fa-solid fa-indian-rupee-sign"></i>
+          <span>INR - Indian Rupee</span>
+          <i class="fa-solid fa-angle-down"></i>
+          &nbsp;&nbsp;
+          <span>🇮🇳 India</span>
+        </div>
+        <p class="footer-copyright">
+          © 1996–2025, Amazon.com, Inc. or its affiliates
+        </p>
+      </div>
+
+    </footer>
+    <!-- ===== END FOOTER ===== -->
+
+    <!-- Toast Notification (shown on cart add) -->
+    <div class="toast" id="toast">
+      <i class="fa-solid fa-circle-check"></i>
+      <span id="toast-msg">Added to cart!</span>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+  </body>
+</html>
